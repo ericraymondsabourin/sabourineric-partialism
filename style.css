@@ -1,0 +1,615 @@
+
+/* FONTS BELOW  */
+/* .staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+
+/* -------------------------------------------WHOLE WEBPAGE--------------------------------------------- */
+body {
+    margin: 0px;
+    max-width: 100%;
+}
+
+/*--------------------------------------------NAVIGATION BAR--------------------------------------------------- */
+.navbar ul {
+  list-style-type: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+
+.zed { 
+  background-color:  #FF1A56; opacity: 50;
+}
+
+.navbar a{
+  /* color: pink; */
+  background-color: blue;
+  text-decoration: none;
+  padding: 3.5px;
+  width: -1px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  height: 15px;
+
+}
+
+.navbar a:hover {
+background-color: #FF1A56;
+
+}
+
+.navbar li {
+  float: left;
+}
+
+/*----------------------------------------------WEBSITE TITLE-----------------------------------------------------------*/
+header {
+    /* background-color: blue; */
+    /* width: 900px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; */
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 100%;
+    /* background-color: gold; */
+}
+
+.header1 {
+  /* background-color: blueviolet; */
+  /* width: 900px;
+  height: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; */
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  height: 100%;
+  /* background-color: gold; */
+}
+
+.pinkbox {
+  height: 380px;
+  width: 900px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: greenyellow; */
+}
+
+.cat2 {
+  opacity: 1;
+  position:absolute;
+}
+
+.cat1 {
+  opacity: 0;
+  position:absolute;
+}
+
+.cat1:hover {
+  opacity: 100;
+  position:absolute;
+}
+
+
+
+
+/* h1 {
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+    margin: 100px auto;
+} */
+
+/* h1:hover {
+    text-align: center;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+} */
+
+/*   -------------------------------------IMAGE TILE MASTER CONTAINER --------------------------------------------- */
+main {
+    width: 100%;
+    height: 100%;
+    /* margin-left:auto;
+    margin-right: auto; */
+    /* background-color: yellow; */
+}
+
+
+/*   -------------------------------------------MAIN 1 CONTAINER--------------------------------------------- */
+.main1 {
+    /* display:inline-block; */
+    /* background-color: hotpink; */
+    height: 380px;
+    width: 900px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*   -------------------------------------------BOX-1-(LEFT)--------------------------------------------- */
+.box_1 {
+    display: inline-block;
+    width: 360px;
+    height: 380px;
+    background-color: white;
+    margin-left: 85px;
+
+   
+    /* position: relative; */
+}
+
+.box_1 .img1 {
+  opacity: 100%;
+}
+
+.box_1 .img2 {
+    opacity: 100%;
+    position: absolute;
+    transition: all 500ms linear;
+
+  }
+
+.img2:hover {
+    opacity: 0%;
+}
+   
+/*   -------------------------------------------BOX 2 (RIGHT)--------------------------------------------- */
+.box_2 {
+    width: 360px;
+    height: 380px;
+    background-color: pink;
+    display: inline-block;
+    /* position: relative; */
+}
+
+.box_2 .img3 {
+    opacity: 100%;
+}
+  
+.box_2 .img4 {
+      opacity: 100%;
+      position: absolute;
+      transition: all 500ms linear;
+}
+  
+.img4:hover {
+      opacity: 0%;
+}
+
+
+    /*   ---------------------------------------MAIN2 CONTAINER----------------------------------------*/
+.main2 {
+    /* background-color: green; */
+    height: 380px;
+    width: 900px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* display: relative; */
+
+}
+/*   -------------------------------------------BOX3(LEFT)---------------------------------------------*/
+.box_3 {
+    display: inline-block;
+    width: 360px;
+    height: 380px;
+    background-color: pink;
+    margin-left: 85px;
+    /* position: relative; */
+}
+
+.box_3 .img5 {
+  opacity: 100%;
+}
+
+.box_3 .img6 {
+    opacity: 100%;
+    position: absolute;
+    transition: all 500ms linear;
+}
+
+.img6:hover {
+    opacity: 0%;
+}
+
+/*   -------------------------------------------BOX4(RIGHT)--------------------------------------------- */
+.box_4 {
+    width: 360px;
+    height: 380px;
+    background-color: pink;
+    display: inline-block;
+    /* position: relative; */
+}
+
+.box_4 .img7 {
+    opacity: 100%;
+}
+  
+.box_4 .img8 {
+      opacity: 100%;
+      position: absolute;
+      transition: all 500ms linear;
+ }
+  
+.img8:hover {
+      opacity: 0%;
+}
+     /*   -------------------------------------------MAIN3 CONTAINER--------------------------------------------- */
+.main3 {
+      /* background-color: blue; */
+      height: 380px;
+      width: 900px;
+      margin-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
+        /* display: relative; */
+ }
+
+     /*   -------------------------------------------BOX5(LEFT)--------------------------------------------- */
+
+.box_5 {
+        display: inline-block;
+        width: 360px;
+        height: 380px;
+        background-color: pink;
+        margin-left: 85px;
+        /* position: relative; */
+    }
+    
+.box_5 .img9 {
+      opacity: 100%;
+    }
+    
+.box_5 .img10 {
+        opacity: 100%;
+        position: absolute;
+        transition: all 500ms linear;
+      }
+    
+.img10:hover {
+        opacity: 0%;
+      }
+    
+    /*   -------------------------------------------BOX6(LEFT)--------------------------------------------- */
+.box_6 {
+        width: 360px;
+        height: 380px;
+        background-color: pink;
+        display: inline-block;
+        /* position: relative; */
+    }
+    
+.box_6 .img11 {
+        opacity: 100%;
+      }
+      
+.box_6 .img12 {
+          opacity: 100%;
+          position: absolute;
+          transition: all 500ms linear;
+        }
+      
+.img12:hover {
+          opacity: 0%;
+        }
+
+     /*   -------------------------------------------MAIN CONTAINER 4--------------------------------------------- */
+.main4 {
+      /* background-color: black; */
+      height: 380px;
+      width: 900px;
+      margin-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     /*   -------------------------------------------BOX7(LEFT)--------------------------------------------- */
+.box_7 {
+        display: inline-block;
+        width: 360px;
+        height: 380px;
+        background-color: pink;
+        margin-left: 85px;
+        /* position: relative; */
+    }
+    
+.box_7 .img13 {
+      opacity: 100%;
+    }
+    
+.box_7 .img14 {
+        opacity: 100%;
+        position: absolute;
+        transition: all 500ms linear;
+      }
+    
+.img14:hover {
+        opacity: 0%;
+      }
+    
+           /*   -------------------------------------------BOX8(RIGHT)--------------------------------------------- */
+.box_8 {
+        width: 360px;
+        height: 380px;
+        background-color: pink;
+        display: inline-block;
+        /* position: relative; */
+    }
+    
+.box_8 .img15 {
+        opacity: 100%;
+      }
+      
+.box_8 .img16 {
+          opacity: 100%;
+          position: absolute;
+          transition: all 500ms linear;
+        }
+      
+.img16:hover {
+          opacity: 0%;
+        }
+
+/*   ----------------------------------------------------------MAIN 5--------------------------------------------- */
+.main5 {
+  /* background-color: magenta; */
+  height: 380px;
+  width: 900px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+         }
+    
+         /* ---- -------------------------------------------BOX9(LEFT)--------------------------------------------- */
+    
+.box_9 {
+            display: inline-block;
+            width: 360px;
+            height: 380px;
+            background-color: pink;
+            margin-left: 85px;
+            /* position: relative; */
+        }
+        
+.box_9 .img17 {
+          opacity: 100%;
+        }
+        
+.box_9 .img18 {
+            opacity: 100%;
+            position: absolute;
+            transition: all 500ms linear;
+          }
+        
+.img18:hover {
+            opacity: 0%;
+          }
+
+           /*   -------------------------------------------BOX10(RIGHT)--------------------------------------------- */
+.box_10 {
+            width: 360px;
+            height: 380px;
+            background-color: pink;
+            display: inline-block;
+            /* position: relative; */
+        }
+        
+.box_10 .img19 {
+            opacity: 100%;
+          }
+          
+.box_10 .img20 {
+              opacity: 100%;
+              position: absolute;
+              transition: all 500ms linear;
+            }
+          
+.img20:hover {
+              opacity: 0%;
+            }
+
+/*   -------------------------------------------BOX10(RIGHT)--------------------------------------------- */
+
+.page1box {
+height: 1000px;
+width: 1000px;
+/* background-color: #FF1A56; */
+margin-right: auto;
+margin-left: auto;
+align-content: center;
+display: flex;
+/* justify-content: space-around; */
+justify-content: center;
+}
+
+.p1 {
+  height: 1000px;
+  width: 470px;
+  /* background-color: gold; */
+  flex: space-between;
+  margin-left: 10px;
+  color: #1717E2; 
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.pageimg {
+  height: 400px;
+  width: 400px;
+  /* background-color: gold; */
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 18px;
+}
+
+.subhead1 {
+height: 200px;
+width: 1000px;
+/* background-color: lightcyan; */
+margin-right: auto;
+margin-left: auto;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+/* justify-content: space-around; */
+}
+
+.subhead1 .sub2 {
+  opacity: 100%;
+}
+
+.subhead1 .sub2 {
+  opacity: 0%;
+  position: absolute;
+  transition: all 500ms linear;
+}
+
+.sub2:hover {
+opacity: 100%;
+}
+
+
+.p1 .p {
+  margin-top: 0px;
+}
+
+.bolded {
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.sidebar {
+  height: 2000px;
+  width: 100px;
+  background-color: white;
+  margin-left: 1580px;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  align-content: center;
+  align-items: center;
+  opacity: 100%;
+}
+
+.side {
+  font-size: 65px;
+  text-align: center;
+  color: blue;
+  margin-top: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  align-content: center;
+  text-align: center;
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  ;
+}
+.side:hover {
+  font-size: 65px;
+  text-decoration: none;
+  background-color: white;
+}
+
+.side {
+  text-decoration: none;
+}
+
+.sidey {
+  text-decoration: none;
+  color: blue;
+}
+
+.sidey:hover {
+  text-decoration: none;
+  color: #FF1A56;
+}
+
+.sourcebox {
+  height: 500px;
+  width: 1000px;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sourcestyle {
+  list-style-type: none;
+  line-height: 18px;
+}
+
+.sourcestyle a {
+  font-size: 14px;
+  color:#1717E2;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: 250;
+  font-style: italic;
+}
+
+.sourcestyle a:hover {
+  color:#FF1A56
+}
+
+
+
+
+
+
+
+.subheadA {
+  height: 200px;
+  width: 1000px;
+  /* background-color: lightcyan; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  }
+  
+  .subheadA .subB {
+    opacity: 100%;
+  }
+  
+  .subheadA .subB {
+    opacity: 0%;
+    position: absolute;
+    transition: all 500ms linear;
+  }
+  
+  .subB:hover {
+  opacity: 100%;
+  }
